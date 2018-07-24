@@ -15,6 +15,8 @@ public class Game {
 	public static Window window;
 	public static Hand hand;
 	
+	// test comment
+	
 	public static void main(String[] args) throws InterruptedException {
 		
 		window = new Window(PANEL_WIDTH, PANEL_HEIGHT, "Rouge");
