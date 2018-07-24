@@ -1,0 +1,19 @@
+Rouge Game Ideas
+
+A grid-based traditional roguelike where each movement advances the turn (allowing enemies to move). Similar to Pokemon Mystery Dungeon. Each floor is a grid of clickable buttons which are used to control player movement. 
+
+On the ground, items spawn which can increase a number of stats for the player. Enemies also roam around the corridors , randomly when the player is not nearby, and toward the player when within a certain range. When combat occurs, both combatants stats are compared, and damage is dealt simultaneously.
+
+Proposed stats:
+- Strength/Weapon Damage: the raw strength of your attacks. 
+- Agility/Speed: how many tiles you can move before the enemy gets a chance to.
+- Vitality/Armour: your max health or armour
+
+Proposed item slots:
+- Weapon (Str)
+- Armour (Vit)
+- Boots (Agi)
+
+Items may also have abilities attached to them. 
+
+The goal of each floor is to find the key that unlocks the stairs to the next floor, and then take those stairs up. 

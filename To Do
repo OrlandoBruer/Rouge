@@ -1,0 +1,25 @@
+TO DO LIST: 
+
+Continue working on the Game class to make the EnemyManager class usable 
+(i.e. set up some sort of turn mechanism)
+
+Work on RoomMap generation from text files (this will make testing a lot easier)
+
+Set up some sort of default pathing for enemies, or add some sort of random wandering mechanic
+(or both)
+
+Draw sprites for:
+- the player
+- enemies 
+- doors
+- spaces when hovered over and clicked
+- spaces when within movement range of the player
+- spaces when near the edge
+- 
+
+Set up HUD for health, movement, etc.
+
+Set up combat (!!!). create a "Combat" or "CombatManager" class to handle fights 
+
+Set up a FloorMap class which stores the number of RoomMaps on a floor in a grid format probably
+similar to the one used in RoomMap
