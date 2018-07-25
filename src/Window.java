@@ -20,7 +20,7 @@ public class Window {
 	
 	public Window(int width, int height, String title) {
 		
-		// "window" is a JFrame which is the entire game window. Its only child in the component hierarchy is "gamePanel"
+		// "window" is a JFrame which is the entire game window. Its only children in the component hierarchy are "gamePanel", "hand", and "hud".
 		JFrame window = new JFrame(title);
 		window.setLayout(null);
 		
@@ -52,6 +52,7 @@ public class Window {
 		// HUD will be attached to the Window directly rather than the gamePanel
 		hud = new HUD(100, 25);
 		hand = new Hand(10);
+		
 		window.getContentPane().add(hud);
 		window.getContentPane().add(hand);
 		
